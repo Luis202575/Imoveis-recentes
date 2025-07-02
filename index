@@ -1,9 +1,15 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Compre ou Venda o Seu Imóvel com Segurança</title>
+
+  <title>Gestor de Imóveis | Compra e Venda em Gondomar, Porto, Maia e Gaia</title>
+
+  <meta name="description" content="Plataforma intuitiva para gestão de imóveis nas zonas de Gondomar, Porto, Maia e Vila Nova de Gaia. Adicione, edite e visualize propriedades com segurança e eficiência.">
+  <meta name="keywords" content="gestão de imóveis, Gondomar, Porto, Maia, Gaia, propriedades, comprar imóvel, vender imóvel, consultor imobiliário">
+  <meta name="author" content="Luís">
+
   <style>
     body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f5f5; color: #333; }
     .hero { background: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') no-repeat center center/cover; color: white; text-align: center; padding: 100px 20px; }
@@ -41,7 +47,7 @@
   <section class="cta">
     <h2>Fale com um Especialista Agora</h2>
     <p>Preencha os dados abaixo e comece hoje mesmo o seu processo de compra ou venda em Gondomar, Porto, Maia ou Vila Nova de Gaia.</p>
-    <form action="https://formspree.io/f/xyzjnzrk" method="POST">
+    <form action="formulario_imobiliario.php" method="POST">
       <input type="text" name="nome" placeholder="Seu nome" required />
       <input type="email" name="email" placeholder="Seu e-mail" required />
       <input type="tel" name="telemovel" placeholder="Telemóvel (opcional)" />
@@ -68,46 +74,43 @@
   <section class="properties">
     <h3>Imóveis em Destaque</h3>
     <div class="property-list">
-
-      <a class="property-card" href="https://wa.me/351910313353?text=Olá!%20Tenho%20interesse%20na%20Moradia%20em%20Baguim%20do%20Monte." target="_blank">
-        <img class="property-image" src="images/moradia-baguim.png" alt="Moradia em Baguim do Monte" />
+      <a class="property-card" href="https://wa.me/351910313353" target="_blank">
+        <img class="property-image" src="./imagens/baguim.jpg" alt="Moradia Baguim do Monte" />
         <div class="property-info">
-          <h4>Moradia em Baguim do Monte</h4>
-          <p>Moradia de três frentes perto dos acessos à cidade do Porto e do Parque Natural das Serras do Porto.</p>
+          <h4>Moradia independente à venda em Baguim do Monte</h4>
+          <p>Magnífica moradia de três frentes situada em zona tranquila, perto de transportes e a escassos minutos dos principais acessos à cidade do Porto.</p>
           <ul>
-            <li>Farmácia e transportes próximos</li>
+            <li>Perto da Estrada Dom Miguel</li>
+            <li>100m do parque natural Serras do Porto</li>
             <li>A 5 min da A4</li>
           </ul>
           <p class="property-price">€400,000</p>
         </div>
       </a>
-
-      <a class="property-card" href="https://wa.me/351910313353?text=Olá!%20Tenho%20interesse%20na%20Moradia%20em%20Gondomar." target="_blank">
-        <img class="property-image" src="images/moradia-gondomar.png" alt="Moradia em Gondomar" />
+      <a class="property-card" href="https://wa.me/351910313353" target="_blank">
+        <img class="property-image" src="./imagens/gondomar.jpg" alt="Moradia Gondomar" />
         <div class="property-info">
-          <h4>Moradia T4 em Gondomar</h4>
-          <p>Moradia térrea de 4 frentes, moderna, com aquecimento, alarme e garagem para 3 carros.</p>
+          <h4>Moradia independente à venda em Centro de Gondomar</h4>
+          <p>Moradia T4 (2021) com 4 frentes, equipada com ar condicionado, aquecimento central, alarme, aspiração central e logradouro para 2/3 carros.</p>
           <ul>
-            <li>Área bruta: 362 m²</li>
-            <li>Ano: 2021</li>
+            <li>Área bruta: 362m²</li>
+            <li>Cozinha equipada</li>
           </ul>
           <p class="property-price">€575,000</p>
         </div>
       </a>
-
-      <a class="property-card" href="https://wa.me/351910313353?text=Olá!%20Tenho%20interesse%20no%20terreno%20em%20Castêlo%20da%20Maia." target="_blank">
-        <img class="property-image" src="images/terreno-castelo-maia.png" alt="Terreno em Castêlo da Maia" />
+      <a class="property-card" href="https://wa.me/351910313353" target="_blank">
+        <img class="property-image" src="./imagens/castelo_maia.jpg" alt="Terreno Castêlo da Maia" />
         <div class="property-info">
-          <h4>Terreno em Castêlo da Maia</h4>
-          <p>Terreno com 1215 m², incluindo moradia em ruínas e quintal, excelente potencial.</p>
+          <h4>Terreno à venda em Castêlo da Maia</h4>
+          <p>Terreno de 1215m² na Rua Monte do Viso, com moradia em ruínas e grande área descoberta para projeto de construção.</p>
           <ul>
-            <li>Área útil: 90 m²</li>
-            <li>Área descoberta: 1125 m²</li>
+            <li>Área de implementação: 90m²</li>
+            <li>Área descoberta: 1125m²</li>
           </ul>
           <p class="property-price">€98,000</p>
         </div>
       </a>
-
     </div>
   </section>
 
